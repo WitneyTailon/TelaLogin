@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#pai {
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(99, 69, 7); 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#square {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5%;
+    position: absolute;
+    align-items: center;
+}
+#fi {
+    background-color: white;
+    margin: 2vh;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+#name {
+    border: 0px;
+    font-size: 1.1em;
+    margin: 2vh;
+    margin-top: 7vh;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding-right: 2vh;
+}
+#password {
+    border: 0px;
+    font-size: 1.1em;
+    margin: 2vh;
+    outline: none;
+    margin-bottom: 5vh;
+    border-bottom: 1px solid gray;
+    padding-right: 2vh;
+}
+#acessar {
+    border-radius: 15vh;
+    background: linear-gradient(to right, rgb(174, 77, 219), rgb(230, 64, 91), rgb(236, 95, 118));
+    border: 0px;
+    font-size: 0.911em;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+#acessar:hover {
+    background: gray;
+}
+#pessoa {
+    padding-left: 4vh;
+    font-size: 1.2em;
+}
+#cadeado {
+    padding-left: 4vh;
+    font-size: 1.2em;
+}
