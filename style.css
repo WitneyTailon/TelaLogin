@@ -52,6 +52,7 @@
     width: 120px;
     height: 40px;
     color: white;
+    cursor: pointer;
 }
 #acessar:hover {
     background: gray;
